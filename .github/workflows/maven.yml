@@ -36,7 +36,7 @@ jobs:
     - name: Deploy jar to /opt
       run: |
         sudo mkdir -p /opt/vanshawali
-        sudo cp target/vanshawali-0.0.1-SNAPSHOT.jar /opt/vanshawali/app.jar
+        sudo cp target/vanshawali3-0.0.1-SNAPSHOT.jar /opt/vanshawali/app.jar
 
     - name: Start application service
       run: |
